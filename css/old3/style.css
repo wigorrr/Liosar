@@ -1,0 +1,716 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700');
+
+body {
+  background-color: #FEFEFE;
+  color: #999;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #777;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #FF6600;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+a:link {
+	color: #FF6600;
+}
+
+
+/*---------------------------------------------------------------------- NAVBAR ----------------------------------------------------------------------------*/
+
+.navbar.navbar-default{
+	margin: 0 0 0 0;
+	background-color: #f9f9f9;
+}
+
+.navbar.navbar-liosar{
+	margin: 0 0 0 0;
+}
+
+
+.navbar-brand.logo_liosar_big{
+	height:30px;
+	margin:10px 0 0 20px;
+	padding: 0 0 0 30px;
+}
+
+.navbar-default .navbar-nav > li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li:active {
+	font-family: 'Oswald', sans-serif;
+	color:orange;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	padding: 10px 0 10px 0;
+}
+
+
+.navbar-nav>li>.dropdown-menu>li>a{
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size:10pt;
+	letter-spacing: 1px;
+	line-height: 13pt;
+}
+
+.navbar-nav>li>.dropdown-menu>li{
+	padding: 5px 0 5px 0;
+}
+
+.navbar-nav>li>.dropdown-menu>li:hover{
+	background-color: #F4F4F4;
+}
+
+
+/*-------------------------------------------------------------------------- FOOTER ---------------------------------------------------------------------------*/
+
+.footer{
+	width:100%;
+	overflow: hidden; /* contain floated elements */
+	background-color:#232323;	
+	padding: 3vh 3vw 0 3vw;
+	}
+
+.fila-footer{
+	padding: 30px 0 30px 0;
+}
+
+.footer_left {
+	text-align: left;
+	font-family: "Oswald", sans-serif;
+	padding: 0;
+}
+
+.footer_right p{
+	font-family: "Oswald", sans-serif;
+}
+
+.footer_right h5{
+	font-family: "Oswald", sans-serif;
+	font-size: 12pt;
+	line-height: 16pt; 	
+}
+
+
+#formulariocontacto{
+	width:100%;
+	}
+
+.footer_left h2 {
+	color: white;
+	font-weight:400;
+	margin: 0 0 20px 0;
+	font-size: 16pt;
+	}
+
+.footer_left p {
+	color: white;	
+	margin: 0 0 10px 0;
+	}
+			
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+#email{	
+	font-family: 'Oswald', sans-serif;
+    display: block;
+	float: left;
+    padding: 6px 12px;
+	margin-bottom:12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+	border-radius:5px;	
+	}
+
+#first_name{	
+	font-family: 'Oswald', sans-serif;
+    display: block;
+	float: left;
+    padding: 6px 12px;
+	margin-bottom:12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;	
+	border-radius:5px;
+	}
+
+#message{
+	font-family: 'Oswald', sans-serif;
+    display: block;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;	
+	border-radius:5px;
+	}
+	
+textarea#message {
+    height: 90px;
+}
+
+.redes{
+padding-right:40%;	
+margin-top: 0;
+	}
+	
+#redes a{
+	display: inline;	
+	float: left;
+	padding-right:40%;	
+	}
+
+#footer_logos{
+	 
+	}
+	
+.logo_footer_liosar{
+	width:100%;
+	float:right;
+	margin-top:-1.7em;
+	display: block;
+	}
+
+.logoarg_datafiscal{
+	float:right;
+	width:100%;
+	display: block;	
+	margin-top:0.7em;
+	}
+	
+#data_logo{
+	width:50%;	
+	}
+
+
+/*--MEDIA QUERY: min:800p---*/
+
+@media (min-width: 800px) {
+
+.footer_right {
+	text-align: right;
+	color: white;
+	line-height:2em;
+	padding: 0;
+}
+
+.btn-primary{
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+	background-color: #ff7323;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 2em;
+	}
+
+.btn {
+    font-weight: 400;
+    border: 0;
+    width: 170px;
+    font-size: 18px;
+    line-height: 1em;
+	padding: 6px 12px;
+}	
+}
+
+/*--MEDIA QUERY: max:800p---*/
+
+@media (max-width: 800px) {
+
+.footer_right {
+	text-align: center;
+	color: white;
+	line-height:2em;
+	padding: 0;
+}
+
+.btn-primary{
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+	background-color: #ff7323;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 2em;
+	}
+
+.btn {
+    font-weight: 400;
+    border: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1em;
+	padding: 6px 12px;
+}	
+}
+
+
+/*------------------------------------------------------------------------------- HOME MAIN SECCIONES -----------------------------------------------------------------------*/
+
+
+@media (max-width: 800px) {
+	.main-home-secciones{
+	background-color: #F1F1F1;
+	padding:20px 0 70px 0;
+	}
+}
+
+@media (min-width: 800px) {
+	.main-home-secciones{
+	background-color: #F1F1F1;
+	padding:70px 0 70px 0;
+}
+}
+
+
+.container-fluid.categorias-home-container{
+	padding:0 0 50px 0;
+	background-color: transparent;
+}
+
+.row.row-categorias
+
+.col-sm-4.categorias_home{
+	height: 250px;
+	padding: 50px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+	vertical-align: middle;
+}
+
+.col-sm-4.categorias_home h1{
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.categorias_home_inside{
+	border-radius: 5px;
+	height:220px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1.titulo_productos{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+	color:grey;
+	font-family: 'Jura', sans-serif;
+	margin-bottom:5px;
+	display: block;
+}
+
+hr.division_titulo{
+	margin: auto;
+	color: grey;
+	background-color: grey;
+	height: 0.5px;
+	width:94%;
+	vertical-align: middle;
+}
+
+.glyphicon.glyphicon-cog.iconos_secciones{
+	font-size: 10em;
+	margin: auto;
+	display: block;
+}
+
+.btn-primary.boton_enviar{
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+	font-size: 18px;  
+	background-color: #ff7323;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.btn-primary.boton_enviar:hover{
+	background-color: #ff4f23;
+}
+
+.btn.btn-default.btn-circle.btn-xl {
+  width: 140px;
+  height: 140px;
+  padding: 0;
+  line-height: 1.33;
+  border-radius: 70px;
+  background-color: transparent;
+  color:#F48123;
+  border: solid 2px #F48123;
+  vertical-align: middle;
+}
+
+.btn.btn-default.btn-circle.btn-xl:hover {
+  width: 160px;
+  height: 160px;
+  padding: 0;
+  line-height: 1.33;
+  border-radius: 80px;
+  transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44)
+}
+
+.btn.btn-default.btn-circle.btn-xl:active {
+	outline:none;
+}
+
+.btn.btn-default.btn-circle.btn-xl:focus {
+	outline:none;
+}
+
+
+.btn.btn-default.btn-circle.btn-xl > img{
+	width:80px;
+	color:#F48123;
+}
+
+
+/*----------------------------------------------------------------------ESTILO NOSOTROS --------------------------------------------------------------------------------------*/
+	
+#quienes_somos_container{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #F2F2F2;
+	margin-top:-30px;
+	font-family: "Oswald", sans-serif;
+	}
+	
+#quienes_somos_container h1{
+	line-height: 2em;
+	font-size:22px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color:#828282;
+	}
+
+#quienes_somos_container p{
+	line-height: 1.8;
+	font-size:14px;
+	color: #999;
+	font-family: "Helvetica", sans-serif;
+	text-align: justify; 
+	}
+	
+#quienes_somos_container h4{
+	line-height: 1.8;
+	font-size:19px;
+	color: #ADADAD;
+	font-style: italic;	
+	text-align: justify; 
+	}
+	
+#quienes_somos_container h5{
+	color: #828282;
+	}
+
+#quienes_somos_container ul li{
+	line-height: 1.8;
+	font-size:14px;
+	color: #999;
+	font-family: "Helvetica", sans-serif;
+	text-align: justify; 
+	}
+
+#quienes_somos_section1{
+	min-height:41em;
+	margin-left:17%;
+	margin-right:17%;
+	}
+	
+#nuestra_empresa{
+	float:left;
+	padding-top:6em;
+	display:inline-block;
+	}
+
+#testimonio_adrian{
+	float:left;
+	clear:both;
+	display:inline-block;
+	}
+
+#quienes_somos_section2{
+	margin-left:17%;
+	margin-right:17%;
+	}
+	
+#quienes_somos_section3{
+	margin-left:17%;
+	margin-right:17%;
+	}
+
+#quienes_somos_section4{
+	margin-left:17%;
+	margin-right:17%;
+	margin-top:4em;
+	padding-bottom:6em;
+	}
+
+
+/*  ---------------------------------------------------------------------PAGINA CONTACTO --------------------------------------------------------------------- */
+
+#contact_section {
+	background-color: #ffffff;
+	border-top: 1px solid #000;
+	color: #fff;
+	background-size: 100%;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 200px;
+	padding-left: 15px;
+	min-height: 180em;
+}
+
+.box_section {
+	background-color: #ffffff;
+	border-top: 1px solid #000;
+	color: #fff;
+	background-size: 100%;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 200px;
+	padding-left: 15px;
+	min-height: 180em;
+}
+
+
+
+
+/*----------------------------------------------------------------------ESTILO CLIENTES --------------------------------------------------------------------------------------*/
+
+
+
+#clientes_container{
+padding:50px 0 70px 0;	
+min-height: 35em; 
+background-color: #F2F2F2;
+	}
+	
+#clientes_container h1{
+font-family: "Oswald", sans-serif;
+font-weight: 400;
+color:#828282;
+text-align:center;
+font-size: 22px;
+	}
+	
+#clientes_container p{
+text-align:center;
+font-family: "Helvetica", sans-serif;
+line-height: 1.8;
+font-size: 14px;
+color:#999;
+	}
+	
+.row_clientes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left:2%;
+  margin-top: 2em;
+}
+
+/* Create four equal columns that sits next to each other */
+.column_clientes {
+  flex: 60%;
+  max-width: 60%;
+  padding: 0 4px;
+  margin: auto;
+}
+
+.column_clientes img {
+  margin-top: 20px;
+  margin-left:25px;
+  margin-right:20px;
+  vertical-align: middle;
+  max-width:90px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column_clientes {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_clientes {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------CONTACTO ---------------------------------------------------------------------*/
+.mapouter{
+	height:400px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.titulo_contacto{
+	display:inline;
+	width:100%;
+	text-align:center;
+	}
+
+.titulo_contacto h1{
+	font-weight:400;
+	}
+
+.mails_contacto_container{
+	width:100%;
+	overflow: hidden; /* contain floated elements */
+	background-color: #F3F3F3;
+	margin-top:0;
+	padding-top:5.5em;
+	padding-bottom:3em;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.mails_contacto_container h2{
+	font-family: "Oswald", sans-serif;
+	font-weight: 200;
+	}
+
+.mails_contacto_container p>a:hover{
+	color:grey;
+	}
+
+
+
+.mail_atencion{
+	text-align: center;
+}
+
+.mail_ventas{
+	text-align: center;
+}
+
+.mail_asistencia{
+	text-align: center;
+}
+	
+.boton_contacto_container{
+	background-color: #F3F3F3;
+	margin:auto;
+	padding-bottom:5em;
+	}
+	
+.boton_contacto_container button{
+	display:block;
+	margin: auto;
+	background-color: #F60;
+	border: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+	cursor:pointer;
+	}
+
+
+/*-----------------------------------------------------------------------------PRODUCTOS ---------------------------------------------------------------------*/
+
+@media screen and (min-width: 800px) {
+	.main-productos-secciones{
+		background-color: #F1F1F1;
+		padding:20px 0 40px 0;
+		min-height:600px;
+	}
+}
+
+ul.lista-productos{
+	list-style-type: none;
+	line-height: 1.8;
+    font-size: 14px;
+    color: #999;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    margin:25px 0 0 0;
+    padding:0;
+}
+
+
+ul.lista-productos >li>a{
+	line-height: 1.8;
+    font-size: 14px;
+    color: #999;
+    font-family: "Helvetica", sans-serif;
+}
+
+
+h1.titulo_productos_seccion{
+	text-align: center;
+	font-size: 23px;
+	font-weight: 300;
+	color:grey;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom:5px;
+	display: block;
+	letter-spacing: 1px;
+}

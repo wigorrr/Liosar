@@ -1,0 +1,54 @@
+[11-Nov-2018 00:19:02 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:19:02 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:19:02 UTC] PHP Warning:  include(): Failed opening 'footer2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:19:14 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:19:14 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:19:14 UTC] PHP Warning:  include(): Failed opening 'footer2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:42 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:42 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:42 UTC] PHP Warning:  include(): Failed opening 'footer2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:49 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:49 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:20:49 UTC] PHP Warning:  include(): Failed opening 'footer2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:21:01 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:21:01 UTC] PHP Warning:  include(footer2.php): failed to open stream: No such file or directory in /home/liosarc1/public_html/index.php on line 148
+[11-Nov-2018 00:21:01 UTC] PHP Warning:  include(): Failed opening 'footer2.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/liosarc1/public_html/index.php on line 148
+[09-Jan-2019 02:43:21 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 13
+[09-Jan-2019 02:43:29 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 13
+[09-Jan-2019 02:56:11 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 11
+[09-Jan-2019 02:56:26 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 11
+[09-Jan-2019 02:58:50 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 11
+[09-Jan-2019 02:59:00 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 11
+[09-Jan-2019 03:33:19 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:33:40 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:35:29 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:35:49 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:43:41 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:44:01 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:48:26 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:48:46 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:48:46 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:51:10 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:51:10 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:53:43 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:53:44 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:54:34 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:54:34 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:55:39 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[09-Jan-2019 03:55:39 UTC] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home/liosarc1/public_html/contact_code.php on line 24
+[30-Jan-2019 19:58:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liosarc1/public_html/contact_code.php:2) in /home/liosarc1/public_html/contact_code.php on line 44
+[30-Jan-2019 20:00:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liosarc1/public_html/contact_code.php:2) in /home/liosarc1/public_html/contact_code.php on line 44
+[30-Jan-2019 21:26:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liosarc1/public_html/contact_code.php:2) in /home/liosarc1/public_html/contact_code.php on line 44
+[30-Jan-2019 22:01:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liosarc1/public_html/head.php:52) in /home/liosarc1/public_html/contact_code.php on line 44
+[22-Jun-2019 14:45:08 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/liosarc1/public_html/contacto.php on line 132
+[22-Jun-2019 14:45:08 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Ld-KqoUAAAAAPZYgeBa6wkD0zyKHnCpQITaUuWv&amp;response=&amp;remoteip=186.19.60.155): failed to open stream: no suitable wrapper could be found in /home/liosarc1/public_html/contacto.php on line 132
+[22-Jun-2019 14:45:30 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/liosarc1/public_html/contacto.php on line 132
+[22-Jun-2019 14:45:30 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Ld-KqoUAAAAAPZYgeBa6wkD0zyKHnCpQITaUuWv&amp;response=&amp;remoteip=186.19.60.155): failed to open stream: no suitable wrapper could be found in /home/liosarc1/public_html/contacto.php on line 132
+[22-Jun-2019 14:51:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:51:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:52:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:52:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:53:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/liosarc1/public_html/contacto.php on line 213
+[22-Jun-2019 14:53:59 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/liosarc1/public_html/contacto.php on line 132
+[22-Jun-2019 14:53:59 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6Ld-KqoUAAAAAPZYgeBa6wkD0zyKHnCpQITaUuWv&amp;response=&amp;remoteip=186.19.60.155): failed to open stream: no suitable wrapper could be found in /home/liosarc1/public_html/contacto.php on line 132

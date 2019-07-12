@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700');
+
+body {
+  background: #FFFFFF;
+  color: #999;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #777;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #FF6600;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+a:link {
+	color: #FF6600;
+}
+
+/*---------------------------------------------- FOOTER -----------------------------------------------*/
+
+.footer{
+	width:100%;
+	overflow: hidden; /* contain floated elements */
+	background-color:#232323;	
+	padding: 2vh 3vw 0 3vw;
+	}
+
+.footer_left {
+	text-align: left;
+	font-family: "Oswald", sans-serif;
+	padding: 0;
+	
+}
+
+#formulariocontacto{
+	width:100%;
+	}
+
+	.footer_left h2 {
+	color: white;
+	font-weight:400;
+	}
+
+.footer_left p {
+	color: white;
+	
+	}
+	
+.col-sm-6 {
+	width: 100%;
+	border-radius:10px;
+	}
+			
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+#email{	
+	font-family: 'Oswald', sans-serif;
+    display: block;
+	float: left;
+    padding: 6px 12px;
+	margin-bottom:12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+	border-radius:5px;	
+	}
+
+#first_name{	
+	font-family: 'Oswald', sans-serif;
+    display: block;
+	float: left;
+    padding: 6px 12px;
+	margin-bottom:12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;	
+	border-radius:5px;
+	}
+
+#message{
+	font-family: 'Oswald', sans-serif;
+    display: block;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;	
+	border-radius:5px;
+	}
+	
+textarea#message {
+    height: 90px;
+}
+
+.redes{
+padding-right:40%;	
+margin-top: 2em;
+	}
+	
+#redes a{
+	display: inline;	
+	float: left;
+	padding-right:40%;	
+	}
+
+#footer_logos{
+	 
+	}
+	
+.logo_footer_liosar{
+	width:100%;
+	float:right;
+	margin-top:-1.7em;
+	display: block;
+	}
+
+.logoarg_datafiscal{
+	float:right;
+	width:100%;
+	display: block;	
+	margin-top:0.7em;
+	}
+	
+#data_logo{
+	width:50%;	
+	}
+
+
+/*--MEDIA QUERY: min:800p---*/
+
+@media (min-width: 800px) {
+
+.footer_right {
+	text-align: right;
+	color: white;
+	line-height:2em;
+	padding: 0;
+}
+
+.btn-primary{
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+	background-color: #ff7323;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 2em;
+	}
+
+.btn {
+    font-weight: 400;
+    border: 0;
+    width: 170px;
+    font-size: 18px;
+    line-height: 1em;
+	padding: 6px 12px;
+}	
+}
+
+/*--MEDIA QUERY: max:800p---*/
+
+@media (max-width: 800px) {
+
+.footer_right {
+	text-align: center;
+	color: white;
+	line-height:2em;
+	padding: 0;
+}
+
+.btn-primary{
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+	background-color: #ff7323;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 2em;
+	}
+
+.btn {
+    font-weight: 400;
+    border: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1em;
+	padding: 6px 12px;
+}	
+}

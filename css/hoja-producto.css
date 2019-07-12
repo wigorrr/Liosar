@@ -1,0 +1,214 @@
+/*LISTA PRODUCTOS*/
+
+.container-fluid.container-lista-prod{
+    padding: 1.5vw 10vw;
+    background-color: #F2F2F2;
+}
+
+.container-lista-prod ul li{
+    padding: 0.5vw;
+    margin: 0.75vw 0.5vw;
+    width:100%;
+    min-height:4vw;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgb(219, 219, 219);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(145,145,145,0.1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(145,145,145,0.1);
+    box-shadow: 2px 2px 2px 0px rgba(145,145,145,0.1);
+    border-radius:0.5vw;
+    transition: all ease 0.3s;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    margin: 2vw 0;
+    text-align: center;
+}
+
+.container-lista-prod ul li:hover{
+    transform: scale(1.04);
+    background-color:rgb(255, 123, 0);
+    border: none;
+}
+
+.container-lista-prod ul li:hover a{
+    color:#fff;
+}
+
+.container-lista-prod ul li a{
+    vertical-align: middle;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+    margin: 0 auto;
+}
+
+.container-lista-prod ul li a:hover{
+    text-decoration: none;
+}
+
+.encabezado-producto{
+    background-image: url("../imagenes/engineering-bg-01-orange.jpg");
+    background-size: cover;
+    color:#fff;
+    padding:1vw 2vw;
+    min-height: 9.5vw;
+}
+
+.encabezado-producto h1{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size:2vw;
+    margin: 1.5vw 0 0 0;
+}
+
+.encabezado-producto .breadcrumbs ul{
+    padding:0;
+}
+
+.encabezado-producto .breadcrumbs ul li a{
+    color:#fff;
+}
+
+.encabezado-producto p{
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 200;
+    width:70%;
+    text-align: center;
+    margin: 2vw auto 2.5vw auto;
+}
+
+@media (max-width:960px){
+
+    .encabezado-producto{
+        min-height:25vw;
+    }
+
+    .encabezado-producto h1{
+        font-size: 7vw;
+    }
+
+    .encabezado-producto p{
+        font-size: 3vw;
+        width: 100%;
+
+    }
+
+    .encabezado-producto .breadcrumbs ul li a{
+        font-size: 3vw;
+    }
+
+    .container-fluid.container-lista-prod{
+        padding: 5%;
+    }
+
+    .container-fluid.container-lista-prod .row .col-sm-3{
+        margin: 1vw;
+    }
+
+    .container-lista-prod ul{
+        margin:0;
+    }
+
+    .container-lista-prod ul li{
+        border-radius: 1vw;
+        padding: 3vw;
+        margin: 0 0 3vw 0;
+    }
+
+    .container-lista-prod ul li a{
+    font-size:4vw;
+    line-height: 6vw;
+    }
+
+}
+
+/*--------------------PAGINA PRODUCTOS---------------------*/
+
+/*---------------CONTAINER------------------*/
+
+.product-container{
+    margin: 0 3vw;
+    padding: 2vw;
+}
+
+.product-container h2{
+    font-family: 'Oswald', sans-serif;
+    color: #FF6600;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2vw;
+}
+
+.product-container h3{
+    font-family: "Helvetica", sans-serif;
+    color: rgb(73, 73, 73);
+    font-weight: 400;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.product-container .container.container-fluid{
+    width:95%;
+    margin: 0 auto;
+    padding:0;
+}
+
+.product-container .container.container-fluid .row .col-sm-8{
+    padding:0 8vw 0 0;
+}
+
+.product-container .container.container-fluid ul li{
+    font-family: "Helvetica", sans-serif;
+    font-size: 1vw;
+    font-weight: 200;
+    line-height: 1.5vw;
+    color: grey;
+    margin-bottom: 2vw;
+}
+
+/*------SEGUDA CAJA------*/
+
+.product-container .container.container-fluid.section-2{
+    margin: 2vw 0 0 0;
+    text-align: center;
+}
+
+.product-container .container.container-fluid.section-2 h2{
+    text-align: center;
+}
+
+.product-container .container.container-fluid.section-2 .row .col-sm-8{
+    margin: 0 15%;
+    width:70%;
+    padding: 0;
+}
+
+.product-container .container.container-fluid.section-2 .row .col-sm-8 ul li{
+    list-style-type: none;
+}
+
+.product-container .container.container-fluid.section-2 .row .col-sm-4 ul{
+    border: 1px solid grey;
+    padding:2vw;
+    margin: 1vw;
+}
+
+.product-container .container.container-fluid.section-2 .row .col-sm-4 ul li:first-child{
+    margin:0 0 1.5vw 0;
+}
+
+.product-container .container.container-fluid.section-2 .row .col-sm-4 ul li{
+    font-size: 0.9vw;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    line-height: 1.4vw;
+}
